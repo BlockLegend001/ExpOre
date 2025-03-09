@@ -1,0 +1,10 @@
+// 1.21.3	2024-12-07T13:41:30.28137	Registries
+7bac73b702f06ee5548ca8de2d7d96c6331aa8aa data/expore/neoforge/biome_modifier/add_end_exp_ore.json
+da9e5771c95d76d03353b746c3acf4c163cb5e0d data/expore/neoforge/biome_modifier/add_exp_ore.json
+060b67003ad252d8f5ae6318b61da50680fa0c09 data/expore/neoforge/biome_modifier/add_nether_exp_ore.json
+f0621074f5b5a234e45c5d9247b1ee66296863d7 data/expore/worldgen/configured_feature/end_exp_ore.json
+dfa75fa0f11997cdaf07a0e3202228a6a5e8e757 data/expore/worldgen/configured_feature/nether_exp_ore.json
+4ec224a54e9f2ee3d753a65039b5e1954717a644 data/expore/worldgen/configured_feature/overworld_exp_ore.json
+2316a0f2350ee38ea99367bb91f1e106d8d25cde data/expore/worldgen/placed_feature/end_exp_ore_placed.json
+ed965c6d280b5d225cdcdbca47f9b768a2df7da0 data/expore/worldgen/placed_feature/exp_placed.json
+0f7a1a28681db40ef03de4553068624476b754b8 data/expore/worldgen/placed_feature/nether_exp_ore_placed.json
