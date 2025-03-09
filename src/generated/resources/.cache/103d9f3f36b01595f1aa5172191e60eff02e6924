@@ -1,0 +1,7 @@
+// 1.19.3	2024-01-06T21:03:30.4606024	Registries
+bec864635ee4eaac1634a0ca40c750d9e93a7097 data/expore/worldgen/configured_feature/end_exp_ore.json
+c7afa850b3a6a0cfbd2a99fae2f68f0171d31d0c data/expore/worldgen/configured_feature/nether_exp_ore.json
+c34361fb4d4b8543fe53fcff8e1cc5eeb870f1f0 data/expore/worldgen/configured_feature/overworld_exp_ore.json
+481a81d168fe8ee95ca9c4ad694c121f9a9ca53f data/expore/worldgen/placed_feature/end_exp_ore_placed.json
+c1490bc2abcb2a0d0b10a975951747d1fb669ab0 data/expore/worldgen/placed_feature/exp_placed.json
+43cc942f788a34587c44639bbe1f519d9eb170aa data/expore/worldgen/placed_feature/nether_exp_ore_placed.json

@@ -1,0 +1,46 @@
+
+#Overworld Exp Ore Config
+[overworld]
+	#Define Veins Per Chunk of the Exp Ore in Overworld. Default = 12
+	#Range: 0 ~ 64
+	VeinsPerChunkOverworldExpOre = 12
+	#How many Exp Ore spawn in one Vein in Overworld. Default = 9
+	#Range: 0 ~ 64
+	OrePerVeinOverworldExpOre = 9
+	#Define Minimum Drop of XP per Exp Ore in Overworld. Default = 40
+	#Range: > 0
+	MinDropOverworldExpOre = 40
+	#Define Maximum Drop of XP per Exp Ore in Overworld. Default = 70
+	#Range: > 0
+	MaxDropOverworldExpOre = 70
+
+#Nether Exp Ore Config
+[nether]
+	#Define Veins Per Chunk of the Exp Ore in Nether. Default = 12
+	#Range: 0 ~ 64
+	VeinsPerChunkNetherExpOre = 12
+	#How many Exp Ore spawn in one Vein in Nether. Default = 9
+	#Range: 0 ~ 64
+	OrePerVeinNetherExpOre = 9
+	#Define Minimum Drop of XP per Exp Ore in Nether. Default = 40
+	#Range: > 0
+	MinDropNetherExpOre = 40
+	#Define Maximum Drop of XP per Exp Ore in Nether. Default = 70
+	#Range: > 0
+	MaxDropNetherExpOre = 70
+
+#End Exp Ore Config
+[end]
+	#Define Veins Per Chunk of the Exp Ore in End. Default = 12
+	#Range: 0 ~ 64
+	VeinsPerChunkEndExpOre = 12
+	#How many Exp Ore spawn in one Vein in End. Default = 9
+	#Range: 0 ~ 64
+	OrePerVeinEndExpOre = 9
+	#Define Minimum Drop of XP per Exp Ore in End. Default = 40
+	#Range: > 0
+	MinDropEndExpOre = 40
+	#Define Maximum Drop of XP per Exp Ore in End. Default = 70
+	#Range: > 0
+	MaxDropEndExpOre = 70
+
