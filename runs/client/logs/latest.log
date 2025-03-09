@@ -1,0 +1,76 @@
+[13:15:53] [main/INFO]: ModLauncher running: args [--launchTarget, neoforgeclientdev, --version, 21.4.38-beta, --assetIndex, asset-index, --assetsDir, C:\Users\rosar\.gradle\caches\minecraft\assets, --gameDir, ., --fml.fmlVersion, 6.0.4, --fml.mcVersion, 1.21.4, --fml.neoForgeVersion, 21.4.38-beta, --fml.neoFormVersion, 20241203.161809]
+[13:15:53] [main/INFO]: JVM identified as Azul Systems, Inc. OpenJDK 64-Bit Server VM 21.0.5+11-LTS
+[13:15:53] [main/INFO]: ModLauncher 11.0.4+main.d2e20e43 starting: java version 21.0.5 by Azul Systems, Inc.; OS Windows 11 arch amd64 version 10.0
+[13:15:53] [main/WARN]: Configuration file D:\Programmazione\Mod\Exp Ore\NEOFORGE\1.21.4\runs\client\config\fml.toml is not correct. Correcting
+[13:15:53] [main/INFO]: Loading ImmediateWindowProvider fmlearlywindow
+[13:15:53] [main/INFO]: Trying GL version 4.6
+[13:15:53] [main/INFO]: Requested GL version 4.6 got version 4.6
+[13:15:54] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=union:/C:/Users/rosar/.gradle/caches/modules-2/files-2.1/net.fabricmc/sponge-mixin/0.15.2+mixin.0.8.7/2af2f021d8e02a0220dc27a7a72b4666d66d44ca/sponge-mixin-0.15.2+mixin.0.8.7.jar%23166!/ Service=ModLauncher Env=CLIENT
+[13:15:54] [main/WARN]: Configuration file D:\Programmazione\Mod\Exp Ore\NEOFORGE\1.21.4\runs\client\config\fml.toml is not correct. Correcting
+[13:15:54] [main/INFO]: Found mod file "neoforge-21.4.38-beta.jar" [locator: neoforge devenv provider ([D:\Programmazione\Mod\Exp Ore\NEOFORGE\1.21.4\.gradle\repositories\ng_dummy_ng\net\neoforged\neoforge\21.4.38-beta\neoforge-21.4.38-beta.jar])]
+[13:15:54] [pool-2-thread-1/INFO]: GL info: NVIDIA GeForce GTX 1650/PCIe/SSE2 GL version 4.6.0 NVIDIA 566.14, NVIDIA Corporation
+[13:15:54] [main/INFO]: Found mod file "neoforge-21.4.38-beta.jar" [locator: neoforge devenv provider ([D:\Programmazione\Mod\Exp Ore\NEOFORGE\1.21.4\.gradle\repositories\ng_dummy_ng\net\neoforged\neoforge\21.4.38-beta\neoforge-21.4.38-beta.jar])]
+[13:15:54] [main/INFO]: Found mod file "main" [locator: userdev mods and services, reader: mod manifest]
+[13:15:54] [main/INFO]: Found mod file "neoforge-21.4.38-beta.jar" [locator: userdev mods and services, reader: mod manifest]
+[13:15:54] [main/INFO]: Found gamelibrary file "mixinextras-neoforge-0.4.1.jar" [locator: userdev mods and services, reader: mod manifest]
+[13:15:54] [main/WARN]: Attempted to select a dependency jar for JarJar which was passed in as source: library:mixinextras.neoforge. Using Mod File: C:\Users\rosar\.gradle\caches\modules-2\files-2.1\io.github.llamalad7\mixinextras-neoforge\0.4.1\eff97772ecd0dcf8e52cdbafd3b3ccec425f8314\mixinextras-neoforge-0.4.1.jar
+[13:15:54] [main/INFO]: Found 1 dependencies adding them to mods collection
+[13:15:54] [main/INFO]: Found library file "net.neoforged.neoforge-coremods-21.4.38-beta.jar" [parent: neoforge-21.4.38-beta.jar, locator: jarinjar, reader: mod manifest]
+[13:15:54] [main/INFO]: 
+     Mod List:
+		Name Version (Mod Id)
+
+		ExpOre 1.21.4-0.2 (expore)
+		Minecraft 1.21.4 (minecraft)
+		NeoForge 21.4.38-beta (neoforge)
+[13:15:55] [main/INFO]: Launching target 'neoforgeclientdev' with arguments [--version, 21.4.38-beta, --gameDir, ., --assetsDir, C:\Users\rosar\.gradle\caches\minecraft\assets, --assetIndex, asset-index]
+[24gen2025 13:15:57.378] [Datafixer Bootstrap/INFO] [com.mojang.datafixers.DataFixerBuilder/]: 246 Datafixer optimizations took 527 milliseconds
+[24gen2025 13:15:57.572] [pool-7-thread-1/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
+[24gen2025 13:16:03.409] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[24gen2025 13:16:03.412] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[24gen2025 13:16:03.415] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[24gen2025 13:16:03.417] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[24gen2025 13:16:03.419] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[24gen2025 13:16:03.557] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/D:/Programmazione/Mod/Exp%20Ore/NEOFORGE/1.21.4/.gradle/repositories/ng_dummy_ng/net/neoforged/neoforge/21.4.38-beta/neoforge-21.4.38-beta.jar%23221!/assets/.mcassetsroot' uses unexpected schema
+[24gen2025 13:16:03.558] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/D:/Programmazione/Mod/Exp%20Ore/NEOFORGE/1.21.4/.gradle/repositories/ng_dummy_ng/net/neoforged/neoforge/21.4.38-beta/neoforge-21.4.38-beta.jar%23221!/data/.mcassetsroot' uses unexpected schema
+[24gen2025 13:16:03.587] [Render thread/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[24gen2025 13:16:03.598] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Setting user: Dev
+[24gen2025 13:16:03.711] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Backend library: LWJGL version 3.3.3+5
+[24gen2025 13:16:04.014] [modloading-worker-0/INFO] [net.neoforged.neoforge.common.NeoForgeMod/NEOFORGE-MOD]: NeoForge mod loading, version 21.4.38-beta, for MC 1.21.4
+[24gen2025 13:16:05.111] [Render thread/INFO] [net.neoforged.neoforge.gametest.GameTestHooks/]: Enabled Gametest Namespaces: []
+[24gen2025 13:16:05.261] [Render thread/INFO] [net.minecraft.server.packs.resources.ReloadableResourceManager/]: Reloading ResourceManager: vanilla, mod_resources, mod/expore, mod/neoforge
+[24gen2025 13:16:05.424] [resourceLoad/INFO] [net.minecraft.client.gui.font.providers.UnihexProvider/]: Found unifont_all_no_pua-16.0.01.hex, loading
+[24gen2025 13:16:05.886] [resourceLoad/INFO] [net.minecraft.client.gui.font.providers.UnihexProvider/]: Found unifont_jp_patch-16.0.01.hex, loading
+[24gen2025 13:16:07.234] [Render thread/INFO] [com.mojang.blaze3d.audio.Library/]: OpenAL initialized on device OpenAL Soft on Altoparlanti (Maonocaster G1 Neo)
+[24gen2025 13:16:07.237] [Render thread/INFO] [net.minecraft.client.sounds.SoundEngine/SOUNDS]: Sound engine started
+[24gen2025 13:16:07.424] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x512x4 minecraft:textures/atlas/blocks.png-atlas
+[24gen2025 13:16:07.433] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x4 minecraft:textures/atlas/signs.png-atlas
+[24gen2025 13:16:07.433] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
+[24gen2025 13:16:07.434] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
+[24gen2025 13:16:07.435] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 2048x1024x4 minecraft:textures/atlas/armor_trims.png-atlas
+[24gen2025 13:16:07.438] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 128x64x4 minecraft:textures/atlas/decorated_pot.png-atlas
+[24gen2025 13:16:07.439] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x4 minecraft:textures/atlas/chest.png-atlas
+[24gen2025 13:16:07.439] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
+[24gen2025 13:16:07.439] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
+[24gen2025 13:16:07.441] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 64x64x0 minecraft:textures/atlas/map_decorations.png-atlas
+[24gen2025 13:16:07.627] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x0 minecraft:textures/atlas/particles.png-atlas
+[24gen2025 13:16:07.629] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x0 minecraft:textures/atlas/paintings.png-atlas
+[24gen2025 13:16:07.630] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x128x0 minecraft:textures/atlas/mob_effects.png-atlas
+[24gen2025 13:16:07.630] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x512x0 minecraft:textures/atlas/gui.png-atlas
+[24gen2025 13:16:07.636] [Render thread/INFO] [net.neoforged.neoforge.client.entity.animation.json.AnimationLoader/]: Loaded 0 entity animations
+[24gen2025 13:16:12.622] [Render thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 1370 recipes
+[24gen2025 13:16:12.635] [Render thread/INFO] [net.minecraft.advancements.AdvancementTree/]: Loaded 1481 advancements
+[24gen2025 13:16:12.862] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Starting integrated minecraft server version 1.21.4
+[24gen2025 13:16:12.862] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[24gen2025 13:16:13.213] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[24gen2025 13:16:14.890] [progressListener/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[24gen2025 13:16:14.890] [progressListener/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[24gen2025 13:16:14.890] [progressListener/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[24gen2025 13:16:14.890] [progressListener/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[24gen2025 13:16:15.129] [Server thread/INFO] [net.neoforged.neoforge.server.permission.PermissionAPI/]: Successfully initialized permission handler neoforge:default_handler
+[24gen2025 13:16:15.141] [progressListener/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 1911 ms
+[24gen2025 13:16:15.261] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Changing view distance to 12, from 10
+[24gen2025 13:16:15.262] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Changing simulation distance to 12, from 0
+[24gen2025 13:16:16.297] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Dev[local:E:9e6974d1] logged in with entity id 76 at (0.5, 84.0, 10.5)
+[24gen2025 13:16:16.349] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev joined the game
+[24gen2025 13:16:17.309] [Render thread/INFO] [net.minecraft.advancements.AdvancementTree/]: Loaded 2 advancements

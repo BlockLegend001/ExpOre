@@ -1,0 +1,38 @@
+[13:41:20] [main/INFO]: ModLauncher running: args [--mod, expore, --all, --output, D:\Programmazione\Mod\Exp Ore\NEOFORGE\1.21.3\src\generated\resources, --existing, D:\Programmazione\Mod\Exp Ore\NEOFORGE\1.21.3\src\main\resources, --launchTarget, forgedatadev, --assetIndex, asset-index, --assetsDir, C:\Users\rosar\.gradle\caches\minecraft\assets, --gameDir, ., --fml.fmlVersion, 5.0.6, --fml.mcVersion, 1.21.3, --fml.neoForgeVersion, 21.3.57, --fml.neoFormVersion, 20241023.131943]
+[13:41:20] [main/INFO]: JVM identified as Azul Systems, Inc. OpenJDK 64-Bit Server VM 21.0.5+11-LTS
+[13:41:20] [main/INFO]: ModLauncher 11.0.4+main.d2e20e43 starting: java version 21.0.5 by Azul Systems, Inc.; OS Windows 11 arch amd64 version 10.0
+[13:41:20] [main/WARN]: Configuration file D:\Programmazione\Mod\Exp Ore\NEOFORGE\1.21.3\runs\data\config\fml.toml is not correct. Correcting
+[13:41:20] [main/INFO]: ImmediateWindowProvider not loading because launch target is forgedatadev
+[13:41:20] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=union:/C:/Users/rosar/.gradle/caches/modules-2/files-2.1/net.fabricmc/sponge-mixin/0.15.2+mixin.0.8.7/2af2f021d8e02a0220dc27a7a72b4666d66d44ca/sponge-mixin-0.15.2+mixin.0.8.7.jar%23166!/ Service=ModLauncher Env=CLIENT
+[13:41:20] [main/WARN]: Configuration file D:\Programmazione\Mod\Exp Ore\NEOFORGE\1.21.3\runs\data\config\fml.toml is not correct. Correcting
+[13:41:20] [main/INFO]: Found mod file "neoforge-21.3.57.jar" [locator: neoforge devenv provider ([D:\Programmazione\Mod\Exp Ore\NEOFORGE\1.21.3\.gradle\repositories\ng_dummy_ng\net\neoforged\neoforge\21.3.57\neoforge-21.3.57.jar])]
+[13:41:20] [main/INFO]: Found mod file "neoforge-21.3.57.jar" [locator: neoforge devenv provider ([D:\Programmazione\Mod\Exp Ore\NEOFORGE\1.21.3\.gradle\repositories\ng_dummy_ng\net\neoforged\neoforge\21.3.57\neoforge-21.3.57.jar])]
+[13:41:20] [main/INFO]: Found mod file "main" [locator: userdev mods and services, reader: mod manifest]
+[13:41:20] [main/INFO]: Found mod file "neoforge-21.3.57.jar" [locator: userdev mods and services, reader: mod manifest]
+[13:41:20] [main/INFO]: Found gamelibrary file "mixinextras-neoforge-0.4.1.jar" [locator: userdev mods and services, reader: mod manifest]
+[13:41:21] [main/WARN]: Attempted to select a dependency jar for JarJar which was passed in as source: library:mixinextras.neoforge. Using Mod File: C:\Users\rosar\.gradle\caches\modules-2\files-2.1\io.github.llamalad7\mixinextras-neoforge\0.4.1\eff97772ecd0dcf8e52cdbafd3b3ccec425f8314\mixinextras-neoforge-0.4.1.jar
+[13:41:21] [main/INFO]: Found 1 dependencies adding them to mods collection
+[13:41:21] [main/INFO]: Found library file "net.neoforged.neoforge-coremods-21.3.57.jar" [parent: neoforge-21.3.57.jar, locator: jarinjar, reader: mod manifest]
+[13:41:21] [main/INFO]: 
+     Mod List:
+		Name Version (Mod Id)
+
+		ExpOre 1.21.3-0.1 (expore)
+		Minecraft 1.21.3 (minecraft)
+		NeoForge 21.3.57 (neoforge)
+[13:41:21] [main/INFO]: Launching target 'forgedatadev' with arguments [--gameDir, ., --assetsDir, C:\Users\rosar\.gradle\caches\minecraft\assets, --mod, expore, --all, --output, D:\Programmazione\Mod\Exp Ore\NEOFORGE\1.21.3\src\generated\resources, --existing, D:\Programmazione\Mod\Exp Ore\NEOFORGE\1.21.3\src\main\resources, --assetIndex, asset-index]
+[07dic2024 13:41:22.377] [main/INFO] [net.neoforged.neoforge.data.loading.DatagenModLoader/]: Initializing Data Gatherer for mods [expore]
+[07dic2024 13:41:22.390] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
+[07dic2024 13:41:29.161] [modloading-worker-0/INFO] [net.neoforged.neoforge.common.NeoForgeMod/NEOFORGE-MOD]: NeoForge mod loading, version 21.3.57, for MC 1.21.3
+[07dic2024 13:41:29.693] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/D:/Programmazione/Mod/Exp%20Ore/NEOFORGE/1.21.3/.gradle/repositories/ng_dummy_ng/net/neoforged/neoforge/21.3.57/neoforge-21.3.57.jar%23221!/assets/.mcassetsroot' uses unexpected schema
+[07dic2024 13:41:29.693] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/D:/Programmazione/Mod/Exp%20Ore/NEOFORGE/1.21.3/.gradle/repositories/ng_dummy_ng/net/neoforged/neoforge/21.3.57/neoforge-21.3.57.jar%23221!/data/.mcassetsroot' uses unexpected schema
+[07dic2024 13:41:29.932] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Registries
+[07dic2024 13:41:30.209] [main/INFO] [net.minecraft.data.DataGenerator/]: Registries finished after 276 ms
+[07dic2024 13:41:30.209] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Tags for minecraft:block mod id expore
+[07dic2024 13:41:30.221] [main/INFO] [net.minecraft.data.DataGenerator/]: Tags for minecraft:block mod id expore finished after 10 ms
+[07dic2024 13:41:30.222] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Loot Tables
+[07dic2024 13:41:30.243] [main/INFO] [net.minecraft.data.DataGenerator/]: Loot Tables finished after 20 ms
+[07dic2024 13:41:30.243] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Block States: expore
+[07dic2024 13:41:30.276] [main/INFO] [net.minecraft.data.DataGenerator/]: Block States: expore finished after 33 ms
+[07dic2024 13:41:30.276] [main/INFO] [net.minecraft.data.DataGenerator/]: All providers took: 344 ms
+[07dic2024 13:41:30.291] [main/INFO] [net.minecraft.data.HashCache/]: Caching: total files: 27, old count: 0, new count: 28, removed stale: 0, written: 27

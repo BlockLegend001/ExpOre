@@ -1,0 +1,13 @@
+// 1.21.4	2025-01-24T13:15:29.0934977	ExpOre Blockstates
+10a453d82aeceb5ef423ff0446d294333775cea9 assets/expore/blockstates/deepslate_exp_ore.json
+08943d0d33d543195966f6356ae7e3d9fb290fbb assets/expore/blockstates/end_exp_ore.json
+bff88af9fb7ca5f4b29931de9dc6b77febbf3e70 assets/expore/blockstates/exp_ore.json
+0c9a782a207ab5023f8da8610186b6cc53a1b0e1 assets/expore/blockstates/nether_exp_ore.json
+5270b5dff7a26489de68a2961b5136094fabefa1 assets/expore/models/block/deepslate_exp_ore.json
+0de4408b7938fe694d241ea4d955a114ded64ef4 assets/expore/models/block/end_exp_ore.json
+332eae6dadfd61b292bb8a928f1adcfaa24623a1 assets/expore/models/block/exp_ore.json
+8a2a6151897e35a57a53eaa1c3f3e44b43a0513a assets/expore/models/block/nether_exp_ore.json
+da075ef5db2ba56a5e577a41a0ae7fb523da81f8 assets/expore/models/item/deepslate_exp_ore.json
+8d0651fbc9e02b0f47a9536964b856aae366eaae assets/expore/models/item/end_exp_ore.json
+a0e3112301f17968906c69ad85582c8f41c36d3b assets/expore/models/item/exp_ore.json
+a3c968ec6d7e33fa50802c7ca7a24ad1dabf271d assets/expore/models/item/nether_exp_ore.json
