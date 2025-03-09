@@ -1,0 +1,10 @@
+// 1.21	2024-09-08T12:25:11.1909901	Registries
+59f7a9ab2d30afa76d66bc2e6d35d0d70da23f0a data/expore/forge/biome_modifier/add_end_exp_ore.json
+87916092bf13f1b0ca0cb00634035e26d18c8f9e data/expore/forge/biome_modifier/add_exp_ore.json
+de194f814b44e64700717bbc3d9a212578aaf931 data/expore/forge/biome_modifier/add_nether_exp_ore.json
+f0621074f5b5a234e45c5d9247b1ee66296863d7 data/expore/worldgen/configured_feature/end_exp_ore.json
+dfa75fa0f11997cdaf07a0e3202228a6a5e8e757 data/expore/worldgen/configured_feature/nether_exp_ore.json
+4ec224a54e9f2ee3d753a65039b5e1954717a644 data/expore/worldgen/configured_feature/overworld_exp_ore.json
+2316a0f2350ee38ea99367bb91f1e106d8d25cde data/expore/worldgen/placed_feature/end_exp_ore_placed.json
+ed965c6d280b5d225cdcdbca47f9b768a2df7da0 data/expore/worldgen/placed_feature/exp_placed.json
+0f7a1a28681db40ef03de4553068624476b754b8 data/expore/worldgen/placed_feature/nether_exp_ore_placed.json
