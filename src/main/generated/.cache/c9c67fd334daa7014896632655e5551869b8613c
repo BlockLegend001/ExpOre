@@ -1,0 +1,7 @@
+// 1.21.1	2024-09-05T13:06:22.4837993	ExpOre/expore
+420e17dd5dee0b7c6a04dadc895d034d7cb20d23 data\expore\worldgen\placed_feature\nether_exp_ore_placed.json
+a50262c4740938d9469dba3c3afbcc68a89f1419 data\expore\worldgen\placed_feature\exp_ore_placed.json
+a91ceff7ca3bbe4d3cfe507f2de3b254557c55b6 data\expore\worldgen\configured_feature\nether_exp_ore.json
+bec864635ee4eaac1634a0ca40c750d9e93a7097 data\expore\worldgen\configured_feature\end_exp_ore.json
+250682a06875b7e954a930fc519e1ee3560873df data\expore\worldgen\placed_feature\end_exp_ore_placed.json
+c34361fb4d4b8543fe53fcff8e1cc5eeb870f1f0 data\expore\worldgen\configured_feature\exp_ore.json
