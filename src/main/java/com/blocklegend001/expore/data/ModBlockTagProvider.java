@@ -3,6 +3,7 @@ package com.blocklegend001.expore.data;
 import com.blocklegend001.expore.blocks.ModBlocks;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricTagProvider;
+import net.fabricmc.fabric.api.tag.convention.v2.ConventionalBlockTags;
 import net.minecraft.registry.RegistryWrapper;
 import net.minecraft.registry.tag.BlockTags;
 
@@ -23,6 +24,12 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.END_EXP_ORE);
 
         getOrCreateTagBuilder(BlockTags.NEEDS_IRON_TOOL)
+                .add(ModBlocks.DEEPSLATE_EXP_ORE)
+                .add(ModBlocks.EXP_ORE)
+                .add(ModBlocks.NETHER_EXP_ORE)
+                .add(ModBlocks.END_EXP_ORE);
+
+        getOrCreateTagBuilder(ConventionalBlockTags.ORES)
                 .add(ModBlocks.DEEPSLATE_EXP_ORE)
                 .add(ModBlocks.EXP_ORE)
                 .add(ModBlocks.NETHER_EXP_ORE)
