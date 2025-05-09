@@ -4,6 +4,7 @@ import com.blocklegend001.expore.blocks.ModBlocks;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.data.PackOutput;
 import net.minecraft.tags.BlockTags;
+import net.neoforged.neoforge.common.Tags;
 import net.neoforged.neoforge.common.data.BlockTagsProvider;
 import net.neoforged.neoforge.common.data.ExistingFileHelper;
 
@@ -27,6 +28,12 @@ public class ModBlockTagGenerator extends BlockTagsProvider {
                         ModBlocks.DEEPSLATE_EXP_ORE.get());
 
         this.tag(BlockTags.NEEDS_IRON_TOOL)
+                .add(ModBlocks.EXP_ORE.get(),
+                        ModBlocks.END_EXP_ORE.get(),
+                        ModBlocks.NETHER_EXP_ORE.get(),
+                        ModBlocks.DEEPSLATE_EXP_ORE.get());
+
+        this.tag(Tags.Blocks.ORES)
                 .add(ModBlocks.EXP_ORE.get(),
                         ModBlocks.END_EXP_ORE.get(),
                         ModBlocks.NETHER_EXP_ORE.get(),
