@@ -1,1 +1,1 @@
-- Added config
+- Added #c:ores tag to the blocks
