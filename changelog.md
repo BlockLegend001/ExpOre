@@ -1,0 +1,1 @@
+- Added #c:ores tag to the blocks
