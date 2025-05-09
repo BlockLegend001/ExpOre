@@ -1,1 +1,2 @@
-- Fixed an error where all the textures was 'End Exp Ore'
+- Added #c:ores tag to the blocks
+- Added Brazilian Portuguese Language
