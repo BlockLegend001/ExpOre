@@ -176,3 +176,4 @@ publishMods {
         minecraftVersions.add(minecraft_version)
     }
 }
+
