@@ -1,1 +1,2 @@
 - Added #c:ores tag to the blocks
+- Added Brazilian Portuguese Language
