@@ -1,2 +1,1 @@
-- Added #c:ores tag to the blocks
-- Added Brazilian Portuguese Language
+- Now you can get Exp Ore Block by breaking it with SilkTouch

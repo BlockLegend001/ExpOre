@@ -15,7 +15,7 @@ public class ExpOreDataGenerator implements DataGeneratorEntrypoint {
         pack.addProvider(ModWorldGenerator::new);
         pack.addProvider(ModModelProvider::new);
         pack.addProvider(ModBlockTagProvider::new);
-        //pack.addProvider(ModLootTableGenerator::new);
+        pack.addProvider(ModLootTableGenerator::new);
     }
 
     @Override
