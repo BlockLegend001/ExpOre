@@ -14,9 +14,9 @@ public class ModLootTableGenerator extends FabricBlockLootTableProvider {
 
     @Override
     public void generate() {
-        addDrop(ModBlocks.EXP_ORE);
-        addDrop(ModBlocks.DEEPSLATE_EXP_ORE);
-        addDrop(ModBlocks.NETHER_EXP_ORE);
-        addDrop(ModBlocks.END_EXP_ORE);
+        addDropWithSilkTouch(ModBlocks.EXP_ORE);
+        addDropWithSilkTouch(ModBlocks.DEEPSLATE_EXP_ORE);
+        addDropWithSilkTouch(ModBlocks.NETHER_EXP_ORE);
+        addDropWithSilkTouch(ModBlocks.END_EXP_ORE);
     }
 }
