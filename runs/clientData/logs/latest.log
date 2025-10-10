@@ -1,0 +1,41 @@
+[10ott2025 16:24:22.279] [main/INFO] [net.neoforged.fml.startup.Entrypoint/]: JVM Uptime at startup: 151ms
+[10ott2025 16:24:22.289] [main/INFO] [net.neoforged.fml.loading.FMLLoader/]: Starting FancyModLoader version 10.0.14 (CLIENT in DEV)
+[10ott2025 16:24:22.289] [main/INFO] [net.neoforged.fml.loading.FMLLoader/]: Game directory: D:\Programmazione\Mod\Exp Ore\NEOFORGE\1.21.10\runs\clientData
+[10ott2025 16:24:22.324] [main/INFO] [net.neoforged.fml.loading.EarlyServiceDiscovery/]: Found 0 early service jars (out of 0) in 2ms
+[10ott2025 16:24:22.326] [main/INFO] [net.neoforged.fml.loading.ImmediateWindowHandler/]: Not loading early display in headless mode.
+[10ott2025 16:24:22.370] [main/INFO] [net.neoforged.fml.loading.moddiscovery.locators.GameLocator/]: Detected a joined NeoForge and Minecraft configuration. Applying filtering...
+[10ott2025 16:24:22.454] [main/INFO] [net.neoforged.fml.loading.moddiscovery.locators.InDevFolderLocator/CORE]: Got mod coordinates 1.21.10%%D:\Programmazione\Mod\Exp Ore\NEOFORGE\1.21.10\build\resources\main;1.21.10%%D:\Programmazione\Mod\Exp Ore\NEOFORGE\1.21.10\build\classes\java\main from env
+[10ott2025 16:24:22.610] [main/WARN] [net.neoforged.jarjar.selection.JarSelector/]: Attempted to select a dependency jar for JarJar which was passed in as source: library:mixinextras.neoforge. Using Jar[C:\Users\rosar\.gradle\caches\modules-2\files-2.1\io.github.llamalad7\mixinextras-neoforge\0.5.0\d734b83ce6542bb70ea31755c1595b88992dbe65\mixinextras-neoforge-0.5.0.jar]
+[10ott2025 16:24:22.612] [main/INFO] [net.neoforged.fml.loading.moddiscovery.locators.JarInJarDependencyLocator/]: Found 1 dependencies adding them to mods collection
+[10ott2025 16:24:22.614] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/]: 
+     Mod List:
+		Name Version (Mod Id)
+
+		ExpOre 1.21.10-0.1 (expore)
+		Minecraft 1.21.10 (minecraft)
+		NeoForge 21.10.6-beta (neoforge)
+[10ott2025 16:24:22.755] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/C:/Users/rosar/.gradle/caches/modules-2/files-2.1/net.fabricmc/sponge-mixin/0.16.4+mixin.0.8.7/26d01f0567ab46e9ca0d2ed89d0ecc11aadbd433/sponge-mixin-0.16.4+mixin.0.8.7.jar Service=FML Env=CLIENT
+[10ott2025 16:24:22.818] [main/INFO] [net.neoforged.fml.loading.FMLLoader/]: Loading FML Plugins:
+[10ott2025 16:24:22.818] [main/INFO] [net.neoforged.fml.loading.FMLLoader/]:  - D:/Programmazione/Mod/Exp Ore/NEOFORGE/1.21.10/.gradle/repositories/ng_dummy_ng/net/neoforged/neoforge/21.10.6-beta/neoforge-21.10.6-beta.jar > net.neoforged.neoforge-coremods-21.10.6-beta.jar
+[10ott2025 16:24:23.066] [main/INFO] [net.neoforged.fml.loading.FMLLoader/]: Building game content classloader:
+ - expore (composite(folder(D:\Programmazione\Mod\Exp Ore\NEOFORGE\1.21.10\build\resources\main), folder(D:\Programmazione\Mod\Exp Ore\NEOFORGE\1.21.10\build\classes\java\main)))
+ - minecraft (composite(jar(D:\Programmazione\Mod\Exp Ore\NEOFORGE\1.21.10\.gradle\repositories\ng_dummy_ng\net\minecraft\client\1.21.10\client-1.21.10-client-extra.jar), filtered(jar(D:\Programmazione\Mod\Exp Ore\NEOFORGE\1.21.10\.gradle\repositories\ng_dummy_ng\net\neoforged\neoforge\21.10.6-beta\neoforge-21.10.6-beta.jar))))
+ - mixinextras.neoforge (jar(C:\Users\rosar\.gradle\caches\modules-2\files-2.1\io.github.llamalad7\mixinextras-neoforge\0.5.0\d734b83ce6542bb70ea31755c1595b88992dbe65\mixinextras-neoforge-0.5.0.jar))
+ - neoforge (composite(filtered(jar(D:\Programmazione\Mod\Exp Ore\NEOFORGE\1.21.10\.gradle\repositories\ng_dummy_ng\net\neoforged\neoforge\21.10.6-beta\neoforge-21.10.6-beta.jar))))
+ - net.neoforged.fml.generated (empty(VirtualJar\net.neoforged.fml.generated))
+[10ott2025 16:24:23.086] [main/INFO] [net.neoforged.fml.loading.FMLLoader/]: Built game content classloader in 108ms
+[10ott2025 16:24:23.466] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.0).
+[10ott2025 16:24:27.773] [main/INFO] [net.neoforged.neoforge.data.loading.DatagenModLoader/]: Initializing Data Gatherer for mods [expore]
+[10ott2025 16:24:27.807] [modloading-worker-0/INFO] [net.neoforged.neoforge.common.NeoForgeMod/NEOFORGE-MOD]: NeoForge mod loading, version 21.10.6-beta, for MC 1.21.10
+[10ott2025 16:24:28.645] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Tags for minecraft:block mod id expore
+[10ott2025 16:24:28.664] [main/INFO] [net.minecraft.data.DataGenerator/]: Tags for minecraft:block mod id expore finished after 17 ms
+[10ott2025 16:24:28.664] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Registries
+[10ott2025 16:24:28.669] [main/INFO] [net.minecraft.data.DataGenerator/]: Registries finished after 4 ms
+[10ott2025 16:24:28.669] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Loot Tables
+[10ott2025 16:24:28.695] [main/INFO] [net.minecraft.data.DataGenerator/]: Loot Tables finished after 25 ms
+[10ott2025 16:24:28.695] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Model Definitions - expore
+[10ott2025 16:24:28.752] [main/INFO] [net.minecraft.data.DataGenerator/]: Model Definitions - expore finished after 57 ms
+[10ott2025 16:24:28.753] [main/INFO] [net.minecraft.data.DataGenerator/]: All providers took: 107 ms
+[10ott2025 16:24:28.762] [main/INFO] [net.minecraft.data.HashCache/]: Caching: total files: 28, old count: 28, new count: 29, removed stale: 0, written: 0
+[10ott2025 16:24:28.762] [main/INFO] [net.neoforged.fml.loading.FMLLoader/]: Closing FML Loader 5d23e998
+[10ott2025 16:24:28.762] [main/INFO] [net.neoforged.fml.ModLoader/]: Clearing ModLoader
