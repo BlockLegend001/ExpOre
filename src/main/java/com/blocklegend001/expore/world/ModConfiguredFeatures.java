@@ -40,14 +40,14 @@ public class ModConfiguredFeatures {
         List<OreFeatureConfig.Target> endExpOres =
                 List.of(OreFeatureConfig.createTarget(endstoneReplaceables, ModBlocks.END_EXP_ORE.getDefaultState()));
 
-        register(context, EXP_ORE_KEY, Feature.ORE, new OreFeatureConfig(overworldExpOres, 9));
-        register(context, NETHER_EXP_ORE_KEY, Feature.ORE, new OreFeatureConfig(netherExpOres, 9));
-        register(context, END_EXP_ORE_KEY, Feature.ORE, new OreFeatureConfig(endExpOres, 9));
+        register(context, EXP_ORE_KEY, Feature.ORE, new OreFeatureConfig(overworldExpOres, 7));
+        register(context, NETHER_EXP_ORE_KEY, Feature.ORE, new OreFeatureConfig(netherExpOres, 7));
+        register(context, END_EXP_ORE_KEY, Feature.ORE, new OreFeatureConfig(endExpOres, 7));
 
     }
 
     public static RegistryKey<ConfiguredFeature<?, ?>> registerKey(String name) {
-        return RegistryKey.of(RegistryKeys.CONFIGURED_FEATURE, new Identifier(ExpOre.MOD_ID, name));
+        return RegistryKey.of(RegistryKeys.CONFIGURED_FEATURE, Identifier.of(ExpOre.MOD_ID, name));
     }
 
     private static <FC extends FeatureConfig, F extends Feature<FC>> void register(Registerable<ConfiguredFeature<?, ?>> context,

@@ -14,6 +14,7 @@ public class ExpOre implements ModInitializer {
 
     @Override
     public void onInitialize() {
+        ExpOreConfig.loadConfig();
         ModItemGroup.registerItemGroups();
         ModBlocks.registerModBlocks();
         ModItems.registerModItems();

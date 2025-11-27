@@ -1,1 +1,3 @@
-- Added Nether & End Exp Ore
+- Refactored the version 1.20.1
+- Added back the support to the version 1.20.1
+- Added all the feature of the newer version

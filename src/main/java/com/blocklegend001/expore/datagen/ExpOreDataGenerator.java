@@ -1,7 +1,7 @@
-package com.blocklegend001.expore;
+package com.blocklegend001.expore.datagen;
 
-import com.blocklegend001.expore.data.ModModelProvider;
-import com.blocklegend001.expore.data.ModWorldGenerator;
+import com.blocklegend001.expore.datagen.ModLootTableGenerator;
+import com.blocklegend001.expore.datagen.ModModelProvider;
 import com.blocklegend001.expore.world.ModConfiguredFeatures;
 import com.blocklegend001.expore.world.ModPlacedFeatures;
 import net.fabricmc.fabric.api.datagen.v1.DataGeneratorEntrypoint;
@@ -16,6 +16,8 @@ public class ExpOreDataGenerator implements DataGeneratorEntrypoint {
 
         pack.addProvider(ModWorldGenerator::new);
         pack.addProvider(ModModelProvider::new);
+        pack.addProvider(ModBlockTagProvider::new);
+        pack.addProvider(ModLootTableGenerator::new);
     }
 
     @Override

@@ -25,21 +25,21 @@ public class ModPlacedFeatures {
         var configuredFeatureRegistryEntryLookup = context.getRegistryLookup(RegistryKeys.CONFIGURED_FEATURE);
 
         register(context, EXP_ORE_PLACED_KEY, configuredFeatureRegistryEntryLookup.getOrThrow(ModConfiguredFeatures.EXP_ORE_KEY),
-                ModOrePlacement.modifiersWithCount(12,
+                ModOrePlacement.modifiersWithCount(9,
                         HeightRangePlacementModifier.trapezoid(YOffset.getBottom(), YOffset.fixed(80))));
 
         register(context, NETHER_EXP_ORE_PLACED_KEY, configuredFeatureRegistryEntryLookup.getOrThrow(ModConfiguredFeatures.NETHER_EXP_ORE_KEY),
-                ModOrePlacement.modifiersWithCount(12,
+                ModOrePlacement.modifiersWithCount(9,
                         HeightRangePlacementModifier.trapezoid(YOffset.getBottom(), YOffset.fixed(125))));
 
         register(context, END_EXP_ORE_PLACED_KEY, configuredFeatureRegistryEntryLookup.getOrThrow(ModConfiguredFeatures.END_EXP_ORE_KEY),
-                ModOrePlacement.modifiersWithCount(12,
+                ModOrePlacement.modifiersWithCount(9,
                         HeightRangePlacementModifier.trapezoid(YOffset.getBottom(), YOffset.fixed(255))));
     }
 
 
     public static RegistryKey<PlacedFeature> registerKey(String name) {
-        return RegistryKey.of(RegistryKeys.PLACED_FEATURE, new Identifier(ExpOre.MOD_ID, name));
+        return RegistryKey.of(RegistryKeys.PLACED_FEATURE, Identifier.of(ExpOre.MOD_ID, name));
     }
 
     private static void register(Registerable<PlacedFeature> context, RegistryKey<PlacedFeature> key, RegistryEntry<ConfiguredFeature<?, ?>> configuration,

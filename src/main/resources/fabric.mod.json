@@ -19,12 +19,13 @@
       "com.blocklegend001.expore.ExpOre"
     ],
     "fabric-datagen": [
-      "com.blocklegend001.expore.ExpOreDataGenerator"
+      "com.blocklegend001.expore.datagen.ExpOreDataGenerator"
     ]
   },
   "depends": {
-    "fabricloader": ">=${loader_version}",
-    "fabric": "*",
-    "minecraft": "${minecraft_version}"
+    "fabricloader": ">=0.14.12",
+    "minecraft": ">=1.20",
+    "java": ">=17",
+    "fabric-api": "*"
   }
 }

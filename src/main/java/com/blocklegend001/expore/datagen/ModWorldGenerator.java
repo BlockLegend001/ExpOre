@@ -1,4 +1,4 @@
-package com.blocklegend001.expore.data;
+package com.blocklegend001.expore.datagen;
 
 import com.blocklegend001.expore.ExpOre;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
@@ -15,7 +15,6 @@ public class ModWorldGenerator extends FabricDynamicRegistryProvider {
 
     @Override
     protected void configure(RegistryWrapper.WrapperLookup registries, Entries entries) {
-        // HERE GOES FUTURE WORLD GEN!
         entries.addAll(registries.getWrapperOrThrow(RegistryKeys.CONFIGURED_FEATURE));
         entries.addAll(registries.getWrapperOrThrow(RegistryKeys.PLACED_FEATURE));
     }

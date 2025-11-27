@@ -1,4 +1,4 @@
-package com.blocklegend001.expore.data;
+package com.blocklegend001.expore.datagen;
 
 import com.blocklegend001.expore.blocks.ModBlocks;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;

@@ -1,8 +1,7 @@
 package com.blocklegend001.expore.blocks;
 
 import com.blocklegend001.expore.ExpOre;
-import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
-import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
+import com.blocklegend001.expore.ExpOreConfig;
 import net.minecraft.block.Block;
 import net.minecraft.block.Blocks;
 import net.minecraft.block.ExperienceDroppingBlock;
@@ -16,29 +15,33 @@ import net.minecraft.util.math.intprovider.UniformIntProvider;
 public class ModBlocks {
 
     public static final Block EXP_ORE = registerBlock("exp_ore",
-            new ExperienceDroppingBlock(FabricBlockSettings.copyOf(Blocks.STONE).strength(4f).requiresTool(),
-                    UniformIntProvider.create(40, 70)));
+            new ExperienceDroppingBlock(Block.Settings.copy(Blocks.STONE).strength(4f).requiresTool(),
+                    UniformIntProvider.create(
+                                ExpOreConfig.expOreMinExperience, ExpOreConfig.expOreMaxExperience)));
 
     public static final Block DEEPSLATE_EXP_ORE = registerBlock("deepslate_exp_ore",
-            new ExperienceDroppingBlock(FabricBlockSettings.copyOf(Blocks.STONE).strength(4f).requiresTool(),
-                    UniformIntProvider.create(40, 70)));
+            new ExperienceDroppingBlock(Block.Settings.copy(Blocks.COBBLED_DEEPSLATE).strength(4f).requiresTool(),
+                    UniformIntProvider.create(
+                                ExpOreConfig.deepslateExpOreMinExperience, ExpOreConfig.deepslateExpOreMaxExperience)));
 
     public static final Block NETHER_EXP_ORE = registerBlock("nether_exp_ore",
-            new ExperienceDroppingBlock(FabricBlockSettings.copyOf(Blocks.STONE).strength(4f).requiresTool(),
-                    UniformIntProvider.create(40, 70)));
+            new ExperienceDroppingBlock(Block.Settings.copy(Blocks.NETHERRACK).strength(4f).requiresTool(),
+                    UniformIntProvider.create(
+                                ExpOreConfig.netherExpOreMinExperience, ExpOreConfig.netherExpOreMaxExperience)));
 
     public static final Block END_EXP_ORE = registerBlock("end_exp_ore",
-            new ExperienceDroppingBlock(FabricBlockSettings.copyOf(Blocks.STONE).strength(4f).requiresTool(),
-                    UniformIntProvider.create(40, 70)));
+            new ExperienceDroppingBlock(Block.Settings.copy(Blocks.END_STONE).strength(4f).requiresTool(),
+                    UniformIntProvider.create(
+                                ExpOreConfig.endExpOreMinExperience, ExpOreConfig.endExpOreMaxExperience)));
 
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);
-        return Registry.register(Registries.BLOCK, new Identifier(ExpOre.MOD_ID, name), block);
+        return Registry.register(Registries.BLOCK, Identifier.of(ExpOre.MOD_ID, name), block);
     }
 
     private static Item registerBlockItem(String name, Block block) {
-        Item item = Registry.register(Registries.ITEM, new Identifier(ExpOre.MOD_ID, name),
-                new BlockItem(block, new FabricItemSettings()));
+        Item item = Registry.register(Registries.ITEM, Identifier.of(ExpOre.MOD_ID, name),
+                new BlockItem(block, new Item.Settings()));
         return item;
     }
 
