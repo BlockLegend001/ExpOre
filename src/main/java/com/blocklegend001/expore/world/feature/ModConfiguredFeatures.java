@@ -40,13 +40,13 @@ public class ModConfiguredFeatures {
     public static void bootstrap(BootstapContext<ConfiguredFeature<?, ?>> context) {
         HolderGetter<PlacedFeature> placedFeatures = context.lookup(Registries.PLACED_FEATURE);
 
-        register(context, OVERWORLD_EXP_ORE_KEY, Feature.ORE, new OreConfiguration(OVERWORLD_EXP_ORES.get(), 9));
-        register(context, NETHER_EXP_ORE_KEY, Feature.ORE, new OreConfiguration(NETHER_EXP_ORES.get(), 9));
-        register(context, END_EXP_ORE_KEY, Feature.ORE, new OreConfiguration(END_EXP_ORES.get(), 9));
+        register(context, OVERWORLD_EXP_ORE_KEY, Feature.ORE, new OreConfiguration(OVERWORLD_EXP_ORES.get(), 7));
+        register(context, NETHER_EXP_ORE_KEY, Feature.ORE, new OreConfiguration(NETHER_EXP_ORES.get(), 7));
+        register(context, END_EXP_ORE_KEY, Feature.ORE, new OreConfiguration(END_EXP_ORES.get(), 7));
     }
 
     public static ResourceKey<ConfiguredFeature<?, ?>> registerKey (String name){
-        return ResourceKey.create(Registries.CONFIGURED_FEATURE, new ResourceLocation(ExpOre.MODID, name));
+        return ResourceKey.create(Registries.CONFIGURED_FEATURE, ResourceLocation.fromNamespaceAndPath(ExpOre.MODID, name));
     }
 
     private static <FC extends FeatureConfiguration, F extends Feature<FC>>void register

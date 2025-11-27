@@ -23,15 +23,15 @@ public class ModPlacedFeatures {
         HolderGetter<ConfiguredFeature<?, ?>> configuredFeatures = context.lookup(Registries.CONFIGURED_FEATURE);
 
         register(context, EXP_PLACED_KEY, configuredFeatures.getOrThrow(ModConfiguredFeatures.OVERWORLD_EXP_ORE_KEY),
-                commonOrePlacement(12,
+                commonOrePlacement(9,
                         HeightRangePlacement.uniform(VerticalAnchor.aboveBottom(-80), VerticalAnchor.absolute(80))));
 
         register(context, NETHER_EXP_PLACED_KEY, configuredFeatures.getOrThrow(ModConfiguredFeatures.NETHER_EXP_ORE_KEY),
-                commonOrePlacement(12,
+                commonOrePlacement(9,
                         HeightRangePlacement.uniform(VerticalAnchor.aboveBottom(0), VerticalAnchor.absolute(125))));
 
         register(context, END_EXP_PLACED_KEY, configuredFeatures.getOrThrow(ModConfiguredFeatures.END_EXP_ORE_KEY),
-                commonOrePlacement(12,
+                commonOrePlacement(9,
                         HeightRangePlacement.uniform(VerticalAnchor.aboveBottom(0), VerticalAnchor.absolute(255))));
     }
 
@@ -44,7 +44,7 @@ public class ModPlacedFeatures {
     }
 
     private static ResourceKey<PlacedFeature> createKey(String name) {
-        return ResourceKey.create(Registries.PLACED_FEATURE, new ResourceLocation(ExpOre.MODID, name));
+        return ResourceKey.create(Registries.PLACED_FEATURE, ResourceLocation.fromNamespaceAndPath(ExpOre.MODID, name));
     }
 
     private static void register(BootstapContext<PlacedFeature> context, ResourceKey<PlacedFeature> key, Holder<ConfiguredFeature<?, ?>> configuration,

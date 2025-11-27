@@ -1,0 +1,4 @@
+// 1.20.1	2025-11-27T23:02:38.5334842	Tags for minecraft:block mod id expore
+d3c6919f58d0a3a9d5d72d30e860930bdb4ace87 data/forge/tags/blocks/ores.json
+d3c6919f58d0a3a9d5d72d30e860930bdb4ace87 data/minecraft/tags/blocks/mineable/pickaxe.json
+d3c6919f58d0a3a9d5d72d30e860930bdb4ace87 data/minecraft/tags/blocks/needs_iron_tool.json
