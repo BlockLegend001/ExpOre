@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.blocklegend001.expore.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "refmap": "ExpOre.refmap.json",
+  "mixins": [
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
