@@ -1,0 +1,5 @@
+// 26.2	-999999999-01-01T00:00:00	ExpOre/Block Loot Tables
+9b4525b9c4af5aa3318b2f34a7247253fc1bc9d6 data/expore/loot_table/blocks/deepslate_exp_ore.json
+84f29216ee1d6ab796183b47f0981bbc8a1bf4ad data/expore/loot_table/blocks/end_exp_ore.json
+f6d5545fa11072238835eac78317da063e373522 data/expore/loot_table/blocks/exp_ore.json
+c9a1d2db552331eaa83844ccf44055a431b6eac3 data/expore/loot_table/blocks/nether_exp_ore.json

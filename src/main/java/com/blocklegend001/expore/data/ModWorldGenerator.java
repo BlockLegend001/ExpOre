@@ -1,0 +1,26 @@
+package com.blocklegend001.expore.data;
+
+import com.blocklegend001.expore.ExpOre;
+import net.fabricmc.fabric.api.datagen.v1.FabricPackOutput;
+import net.fabricmc.fabric.api.datagen.v1.provider.FabricDynamicRegistryProvider;
+import net.minecraft.core.HolderLookup;
+import net.minecraft.core.registries.Registries;
+
+import java.util.concurrent.CompletableFuture;
+
+public class ModWorldGenerator extends FabricDynamicRegistryProvider {
+    public ModWorldGenerator(FabricPackOutput output, CompletableFuture<HolderLookup.Provider> registriesFuture) {
+        super(output, registriesFuture);
+    }
+
+    @Override
+    public String getName() {
+        return ExpOre.MOD_ID;
+    }
+
+    @Override
+    protected void configure(HolderLookup.Provider registries, Entries entries) {
+        entries.addAll(registries.lookupOrThrow(Registries.CONFIGURED_FEATURE));
+        entries.addAll(registries.lookupOrThrow(Registries.PLACED_FEATURE));
+    }
+}
